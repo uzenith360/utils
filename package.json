@@ -56,7 +56,10 @@
     "mocha": "^10.2.0",
     "semantic-release": "^19.0.5",
     "ts-node": "^10.9.1"
-  }, "release": {
-    "branches": ["main"]
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
   }
 }
