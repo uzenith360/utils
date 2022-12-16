@@ -1,2 +1,2 @@
-# ts-utils
-Typescript utilities commonly used in apps
+# utils
+Utilities commonly used in apps
