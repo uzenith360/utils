@@ -39,7 +39,7 @@ jobs:
       run: npm run test:unit --if-present
     - name: Build
       run: npm run build 
-    - run: |
+      run: |
         echo registry=https://registry.npmjs.org/ > lib/.npmrc
         echo @uzenith360:registry=https://npm.pkg.github.com/ > lib/.npmrc
         echo '//npm.pkg.github.com/:_authToken=${secrets.GH_TOKEN}' >> lib/.npmrc     
