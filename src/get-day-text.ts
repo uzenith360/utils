@@ -1,5 +1,5 @@
-export default (timestampOrdateOrDateString: number | string | Date): string => {
-    return [
+export default (timestampOrdateOrDateString: number | string | Date): string =>
+    [
         'Sunday',
         'Monday',
         'Tuesday',
@@ -8,4 +8,3 @@ export default (timestampOrdateOrDateString: number | string | Date): string => 
         'Friday',
         'Saturday'
     ][new Date(timestampOrdateOrDateString).getDay()];
-}
