@@ -39,6 +39,7 @@ jobs:
       run: npm run test:unit --if-present
     - name: Build
       run: npm run build 
+    - name: Create lib/.npmrc file
       run: |
         echo registry=https://registry.npmjs.org/ > lib/.npmrc
         echo @uzenith360:registry=https://npm.pkg.github.com/ > lib/.npmrc
