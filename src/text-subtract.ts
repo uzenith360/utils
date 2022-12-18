@@ -1,7 +1,12 @@
 /**
  * Removes a substring from any position in a string, and assembles the rest of the remainder correctly
  */
-export default (text: string, /*subText: string*/subtractLength: number, startIndex: number = 0, removeExtraSpace: boolean = true): string => {
+export default (
+    text: string,
+    /*subText: string*/subtractLength: number,
+    startIndex: number = 0,
+    removeExtraSpace: boolean = true
+): string => {
     const stringArray: string[] = text.split('');
     let deleteCount: number = /*subText.length*/subtractLength;
 

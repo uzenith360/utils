@@ -16,5 +16,5 @@ export default (timestampOrdateOrDateString: number | string | Date): string => 
         'Dec'
     ][date.getMonth()];
 
-    return `${dy} ${mnth} ${date.getFullYear() !== new Date().getFullYear() ? date.getFullYear() : ''}`;
+    return `${dy} ${mnth}${date.getFullYear() !== new Date().getFullYear() ? ' ' + date.getFullYear() : ''}`;
 }
