@@ -4,8 +4,9 @@ import getShortTextDayMonthOptionalyear from '../src/get-short-text-day-month-op
 
 describe('Get short text day month optionalyear', () => {
     it('should return the short text in same year from a date object', () => {
+        const currentYear: number = (new Date()).getFullYear();
         const expected = '17 Dec';
-        const actual = getShortTextDayMonthOptionalyear(new Date(2022, 11, 17, 22, 47));
+        const actual = getShortTextDayMonthOptionalyear(new Date(currentYear, 11, 17, 22, 47));
         assert.equal(actual, expected);
     });
 
