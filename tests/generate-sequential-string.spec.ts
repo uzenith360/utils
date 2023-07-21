@@ -19,3 +19,15 @@ describe('Generate sequential string', () => {
         assert.equal(next(), 'AAAAB1');
     });
 });
+
+describe('Generate all combinations', () => {
+    it('should return a sequential string', () => {
+        let serialNumber = 0;
+        const next = () => generateSequentialString(serialNumber++, 2, 'AF');
+
+        assert.equal(next(), 'AA');
+        assert.equal(next(), 'AF');
+        assert.equal(next(), 'FA');
+        assert.equal(next(), 'FF');
+    });
+});
