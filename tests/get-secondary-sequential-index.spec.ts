@@ -13,7 +13,7 @@ describe('Get secondary sequential index', () => {
 
             const {length, index: secondarySequentialIndex} = getSecondarySequentialIndex(i, charsetLength);
 
-            console.log(
+            global?.console?.log(
                 i,
                 secondarySequentialIndex,
                 ' ==> ',
