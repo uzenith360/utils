@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/uzenith360/utils/compare/v1.1.0...v1.2.0) (2023-07-21)
+
+
+### Features
+
+* add getSecondarySequentialIndex and getSequentialStringOptimalLength ([158e7fa](https://github.com/uzenith360/utils/commit/158e7fab59f8cd3716992371df9be1ee27cd7589))
+
 # [1.1.0](https://github.com/uzenith360/utils/compare/v1.0.7...v1.1.0) (2023-07-21)
 
 
