@@ -34,6 +34,8 @@ import getFirstDayOfMonthDate from "./get-first-day-of-month-date";
 import getFirstDayOfQuarterDate from "./get-first-day-of-quarter-date";
 import getFirstDayOfWeekDate from "./get-first-day-of-week-date";
 import getFirstDayOfYearDate from "./get-first-day-of-year-date";
+import getSecondarySequentialIndex from "./get-secondary-sequential-index";
+import getSequentialStringOptimalLength from "./get-sequential-string-optimal-length";
 
 // export function helloWorld() {
 //     const message = 'Hello World from my example modern npm package!';
@@ -59,6 +61,8 @@ export default {
     discountedPrice,
     formatMoney,
     generateRandomString,
+    getSequentialStringOptimalLength,
+    getSecondarySequentialIndex,
     generateSequentialString,
     getAAnForWord,
     getDateDayDiff,
