@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/uzenith360/utils/compare/v1.2.0...v1.2.1) (2023-07-21)
+
+
+### Bug Fixes
+
+* export new methods ([064ca06](https://github.com/uzenith360/utils/commit/064ca06ad2af7b601a9f9049647beac10601598f))
+
 # [1.2.0](https://github.com/uzenith360/utils/compare/v1.1.0...v1.2.0) (2023-07-21)
 
 
