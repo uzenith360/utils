@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/uzenith360/utils/compare/v1.2.1...v1.2.2) (2023-08-01)
+
+
+### Bug Fixes
+
+* normalize phone number ([eb194fa](https://github.com/uzenith360/utils/commit/eb194fade6c1b78b102b2e5a8ac315d37f358977))
+
 ## [1.2.1](https://github.com/uzenith360/utils/compare/v1.2.0...v1.2.1) (2023-07-21)
 
 
