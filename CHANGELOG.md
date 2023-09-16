@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/uzenith360/utils/compare/v1.2.3...v1.2.4) (2023-08-24)
+
+
+### Bug Fixes
+
+* add remove undefined and null values from object ([1492866](https://github.com/uzenith360/utils/commit/1492866a23bc5d80d407cfdff08e4bbebeb918f9))
+
 ## [1.2.3](https://github.com/uzenith360/utils/compare/v1.2.2...v1.2.3) (2023-08-24)
 
 
