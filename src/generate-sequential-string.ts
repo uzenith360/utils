@@ -12,6 +12,10 @@ export default (
     outputLength: number = 32,
     charset: string = '2346789ABCDEFHKLMNPQRTVWXY',
 ): string => {
+    if (new Set([...charset]).size !== charset.length) {
+        throw new Error('Character set must be unique');
+    }
+
     const charsetLength: number = charset.length;
     const output: string[] = [];
 

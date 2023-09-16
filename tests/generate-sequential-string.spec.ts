@@ -18,6 +18,10 @@ describe('Generate sequential string', () => {
         assert.equal(next(), 'AAAABC');
         assert.equal(next(), 'AAAAB1');
     });
+
+    it('should throw error if character set is not unique', () => {
+        assert.throws(() => generateSequentialString(0, 0, '01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ'))
+    });
 });
 
 describe('Generate all combinations', () => {
