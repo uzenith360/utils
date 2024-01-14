@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/uzenith360/utils/compare/v1.2.4...v1.2.5) (2023-09-16)
+
+
+### Bug Fixes
+
+* generate-sequential-string was allowing non-unique string ([dd0092f](https://github.com/uzenith360/utils/commit/dd0092f91f2a206aa5d1a9247adb3035a2c71d09))
+
 ## [1.2.4](https://github.com/uzenith360/utils/compare/v1.2.3...v1.2.4) (2023-08-24)
 
 
