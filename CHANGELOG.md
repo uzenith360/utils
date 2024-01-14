@@ -1,3 +1,11 @@
+## [1.2.6](https://github.com/uzenith360/utils/compare/v1.2.5...v1.2.6) (2024-01-14)
+
+
+### Bug Fixes
+
+* add get-better-date ([ec5f79e](https://github.com/uzenith360/utils/commit/ec5f79e35170872404494a63e15a5aa6d608c442))
+* add get-better-date ([d944ad3](https://github.com/uzenith360/utils/commit/d944ad3696707eb2377b3789f284e6e4fcb0599d))
+
 ## [1.2.5](https://github.com/uzenith360/utils/compare/v1.2.4...v1.2.5) (2023-09-16)
 
 
