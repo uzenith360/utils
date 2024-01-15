@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/uzenith360/utils/compare/v1.2.6...v1.2.7) (2024-01-15)
+
+
+### Bug Fixes
+
+* (export) add get-better-date ([9539016](https://github.com/uzenith360/utils/commit/95390164593563c2563d6e9e60849cb387e69616))
+
 ## [1.2.6](https://github.com/uzenith360/utils/compare/v1.2.5...v1.2.6) (2024-01-14)
 
 
