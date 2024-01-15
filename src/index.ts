@@ -37,6 +37,7 @@ import getFirstDayOfYearDate from "./get-first-day-of-year-date";
 import getSecondarySequentialIndex from "./get-secondary-sequential-index";
 import getSequentialStringOptimalLength from "./get-sequential-string-optimal-length";
 import removeUndefinedNullValuesFromObject from "./remove-undefined-null-values-from-object";
+import getBetterDate from "./get-better-date";
 
 // export function helloWorld() {
 //     const message = 'Hello World from my example modern npm package!';
@@ -73,6 +74,7 @@ export default {
     getFormattedDateString,
     removeUndefinedNullValuesFromObject,
     getShortTextDayMonthOptionalyear,
+    getBetterDate,
     getDayText,
     getEndOfDayDate,
     getMonthDiff,
