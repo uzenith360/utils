@@ -38,6 +38,7 @@ import getSecondarySequentialIndex from "./get-secondary-sequential-index";
 import getSequentialStringOptimalLength from "./get-sequential-string-optimal-length";
 import removeUndefinedNullValuesFromObject from "./remove-undefined-null-values-from-object";
 import getBetterDate from "./get-better-date";
+import toSentenceCase from "./to-sentence-case";
 
 // export function helloWorld() {
 //     const message = 'Hello World from my example modern npm package!';
@@ -87,6 +88,7 @@ export default {
     splitCompoundString,
     textSubtract,
     toTitleCase,
+    toSentenceCase,
     trimAndLowercase,
     trimAndUppercase,
     getFirstDayOfMonthDate,
