@@ -1,3 +1,10 @@
+## [1.2.8](https://github.com/uzenith360/utils/compare/v1.2.7...v1.2.8) (2025-03-01)
+
+
+### Bug Fixes
+
+* add to sentence case ([9f64345](https://github.com/uzenith360/utils/commit/9f643455ffae3b8b3bc257c30105a39cabda9fe6))
+
 ## [1.2.7](https://github.com/uzenith360/utils/compare/v1.2.6...v1.2.7) (2024-01-15)
 
 
